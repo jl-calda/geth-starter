@@ -1,0 +1,14 @@
+package pages
+
+import (
+  "github.com/jl-calda/geth-starter/views/components"
+  "github.com/jl-calda/geth-starter/views/layout"
+  )
+
+templ LoginPage() {
+  @layout.Base() {
+    <div class="row" style="width:100%;">
+      @components.LoginForm()
+    </div>
+  }
+}
